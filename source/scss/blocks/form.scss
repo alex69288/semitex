@@ -1,0 +1,96 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 1rem;
+
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 4rem;
+  }
+
+  &__title {
+    margin: 0;
+    padding: 5rem 0rem 0rem 6rem;
+    width: 38rem;
+    height: 11rem;
+    font-family: $third-family;
+    font-weight: 700;
+    font-size: 2.3rem;
+    text-align: center;
+    color: #fff;
+    background: linear-gradient(
+      180deg,
+      rgb(106, 50, 180) 0%,
+      rgb(85, 38, 147) 100%
+    );
+    border-radius: 1rem 1rem 0 0;
+  }
+
+  &__label {
+    display: block;
+    margin-left: 2rem;
+    font-family: $second-family;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 2.3rem;
+    color: #626366;
+    cursor: pointer;
+  }
+
+  &__label:not(:first-of-type) {
+    margin-top: 1.5rem;
+  }
+
+  &__input {
+    padding: 2rem;
+    margin-top: 0.8rem;
+    width: 100%;
+    height: 5.6rem;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: inset 1px 1px 3px 0 rgba(0, 0, 0, 0.1);
+    background: #f5f3ff;
+
+    font-family: $second-family;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 2.6rem;
+    color: #000;
+  }
+
+  &__input::placeholder {
+    font-family: $second-family;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 2.6rem;
+    color: #bcbfc4;
+  }
+
+  &__button {
+    margin-top: 3.4rem;
+  }
+
+  &__copyright {
+    position: relative;
+    display: inline-block;
+    margin-top: 1.7rem;
+    font-family: $second-family;
+    font-weight: 400;
+    font-size: 1.4rem;
+    color: #c0c0c0;
+    align-self: center;
+  }
+
+  &__copyright::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: -2rem;
+    transform: translateY(-50%);
+    width: 16px;
+    height: 16px;
+    background: url(../img/form/lock.svg) center no-repeat;
+  }
+}

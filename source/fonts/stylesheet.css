@@ -1,0 +1,134 @@
+/* Poppins */
+@font-face {
+  font-family: 'Poppins';
+  src: local('Poppins Light'), local('Poppins-Light'),
+    url('fonts/Poppins-Light.woff2') format('woff2'),
+    url('fonts/Poppins-Light.woff') format('woff'),
+    url('fonts/Poppins-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: local('Poppins Regular'), local('Poppins-Regular'),
+    url('fonts/Poppins-Regular.woff2') format('woff2'),
+    url('fonts/Poppins-Regular.woff') format('woff'),
+    url('fonts/Poppins-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: local('Poppins Medium'), local('Poppins-Medium'),
+    url('fonts/Poppins-Medium.woff2') format('woff2'),
+    url('fonts/Poppins-Medium.woff') format('woff'),
+    url('fonts/Poppins-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: local('Poppins SemiBold'), local('Poppins-SemiBold'),
+    url('fonts/Poppins-SemiBold.woff2') format('woff2'),
+    url('fonts/Poppins-SemiBold.woff') format('woff'),
+    url('fonts/Poppins-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: local('Poppins ExtraBold'), local('Poppins-ExtraBold'),
+    url('fonts/Poppins-ExtraBold.woff2') format('woff2'),
+    url('fonts/Poppins-ExtraBold.woff') format('woff'),
+    url('fonts/Poppins-ExtraBold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: local('Poppins Bold'), local('Poppins-Bold'),
+    url('fonts/Poppins-Bold.woff2') format('woff2'),
+    url('fonts/Poppins-Bold.woff') format('woff'),
+    url('fonts/Poppins-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* FuturaBookC */
+@font-face {
+  font-family: 'FuturaBookC';
+  src: local('FuturaBookC'), url('fonts/FuturaBookC.woff2') format('woff2'),
+    url('fonts/FuturaBookC.woff') format('woff'),
+    url('fonts/FuturaBookC.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* FuturaFuturisC */
+@font-face {
+  font-family: 'FuturaFuturisC';
+  src: local('FuturaFuturisC'),
+    url('fonts/FuturaFuturisC.woff2') format('woff2'),
+    url('fonts/FuturaFuturisC.woff') format('woff'),
+    url('fonts/FuturaFuturisC.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'FuturaFuturisC';
+  src: local('FuturaFuturisC Bold'), local('FuturaFuturisC-Bold'),
+    url('fonts/FuturaFuturisC-Bold.woff2') format('woff2'),
+    url('fonts/FuturaFuturisC-Bold.woff') format('woff'),
+    url('fonts/FuturaFuturisC-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* FuturaDemiC */
+@font-face {
+  font-family: 'FuturaDemiC';
+  src: local('FuturaDemiC'), url('fonts/FuturaDemiC.woff2') format('woff2'),
+    url('fonts/FuturaDemiC.woff') format('woff'),
+    url('fonts/FuturaDemiC.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* FuturaLightC */
+@font-face {
+  font-family: 'FuturaLightC';
+  src: local('FuturaLightC'), url('fonts/FuturaLightC.woff2') format('woff2'),
+    url('fonts/FuturaLightC.woff') format('woff'),
+    url('fonts/FuturaLightC.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Proxima Nova */
+@font-face {
+  font-family: 'Proxima Nova';
+  src: local('Proxima Nova Regular'), local('ProximaNova-Regular'),
+    url('fonts/ProximaNova-Regular.woff2') format('woff2'),
+    url('fonts/ProximaNova-Regular.woff') format('woff'),
+    url('fonts/ProximaNova-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

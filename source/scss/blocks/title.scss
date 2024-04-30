@@ -1,0 +1,16 @@
+.title {
+  font-family: $third-family;
+  font-weight: 700;
+  font-size: 4.5rem;
+  margin: 0;
+  text-align: center;
+  line-height: 4.5rem;
+
+  &--black {
+    color: #111;
+  }
+
+  &--white {
+    color: #fff;
+  }
+}

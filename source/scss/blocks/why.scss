@@ -1,0 +1,61 @@
+.why {
+  padding-top: 8.5rem;
+  padding-bottom: 13rem;
+
+  &__title {
+    text-align: center;
+  }
+
+  &__description {
+    padding-left: 11.5rem;
+    padding-right: 11.5rem;
+    font-family: $second-family;
+    font-weight: 400;
+    font-size: 2.2rem;
+    line-height: 109%;
+    text-align: center;
+    color: #030303;
+  }
+
+  &__list {
+    padding: 0 4.3rem;
+    margin: 0;
+    margin-top: 4.2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4.3rem;
+    list-style: none;
+  }
+
+  &__item {
+    padding: 4rem 2.8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 36.9rem;
+    background: #fff url(../img/why/bg-card.png) 100% 100% no-repeat;
+    border-radius: 1rem;
+  }
+
+  &__item-title {
+    margin-top: 4rem;
+    font-family: $third-family;
+    font-weight: 700;
+    font-size: 2rem;
+    text-align: center;
+    color: #2a336c;
+  }
+
+  &__item-descr {
+    font-family: $second-family;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 110%;
+    text-align: center;
+    color: #555;
+  }
+
+  &__img {
+    stroke: #fff;
+  }
+}

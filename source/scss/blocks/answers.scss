@@ -1,0 +1,94 @@
+.answers {
+  margin-top: -10rem;
+  background: url(../img/answer/bg.png) 100% / cover no-repeat;
+  &__wrapper {
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+  }
+  &__accordion {
+    margin-top: 4rem;
+  }
+  &__accordion-title {
+    display: block;
+    position: relative;
+    padding: 3rem 5.3rem;
+    width: 100%;
+    height: 8.7rem;
+    box-shadow: 0 0 50px -10px rgba(22, 126, 194, 0.2);
+    background: linear-gradient(180deg, #ffffff 0, #bdc0ff 100%);
+    border: none;
+    border-radius: 1rem;
+
+    font-family: $font3;
+    font-weight: 600;
+    font-size: 2.4rem;
+    line-height: 117%;
+    color: #333;
+    text-align: left;
+    transition: all 0.2s linear;
+
+    &:not(:first-child) {
+      margin-top: 1rem;
+    }
+
+    &:before {
+      position: absolute;
+      content: '';
+      top: 50%;
+      right: 3rem;
+      transform: translateY(-50%);
+      width: 4rem;
+      height: 4rem;
+      border-radius: 50%;
+      background-color: #757aef;
+      transition: all 0.2s linear;
+    }
+
+    &:after {
+      position: absolute;
+      content: '';
+      top: 41%;
+      right: 4.3rem;
+      transform: translateY(-50%);
+      width: 1.4rem;
+      height: 1.4rem;
+      background: url(../img/manufacturers/arrow.svg) center no-repeat;
+      transform: rotate(-90deg);
+      transition: all 0.2s linear;
+    }
+  }
+
+  &__accordion-title--active {
+    color: #fff;
+    background: linear-gradient(180deg, #969af7 0, #686eec 100%);
+  }
+
+  &__accordion-description {
+    margin-top: -0.7rem;
+    padding: 5.2rem;
+    background-color: #fff;
+
+    font-family: $second-family;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 135%;
+    color: #333;
+
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    display: none;
+    transition: all 0.2s linear;
+  }
+}
+
+.answers__accordion-title--active.answers__accordion-title::before {
+  background-color: #fff;
+}
+
+.answers__accordion-title--active.answers__accordion-title::after {
+  background-color: #fff;
+  box-shadow: 0 4px 30px 0 rgba(166, 190, 226, 0.5);
+  background: none;
+  background: url(../img/answer/arrow-blue.svg) no-repeat center;
+  transform: rotate(0);
+}

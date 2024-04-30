@@ -1,0 +1,22 @@
+@import 'blocks/general/fonts.scss';
+@import 'blocks/general/variables.scss';
+@import 'blocks/general/global.scss';
+@import 'blocks/general/mixin.scss';
+
+// General blocks
+@import 'blocks/general/visually-hidden.scss';
+@import 'blocks/general/container.scss';
+
+// Repeating styles
+@import 'blocks/logo.scss';
+@import 'blocks/form.scss';
+@import 'blocks/title.scss';
+@import 'blocks/button.scss';
+
+// Blocks
+@import 'blocks/header.scss';
+@import 'blocks/why.scss';
+@import 'blocks/manufacturers.scss';
+@import 'blocks/scheme.scss';
+@import 'blocks/answers.scss';
+@import 'blocks/footer.scss';

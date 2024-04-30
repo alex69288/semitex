@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html class="page" lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="css/style.min.css" />
+    <!-- JQuery Mask Plugin -->
+    <script src="//code.jquery.com/jquery-3.5.1.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="//cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.10/jquery.mask.min.css" />
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.10/jquery.mask.min.js"></script>
+    <!-- Swiper -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <title>Semitex</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__wrapper container">
+        <nav class="header__nav">
+          <a class="header__logo logo" href="#">
+            <picture>
+              <source
+                srcset="img/logo.webp 1x, img/logo@2x.webp 2x"
+                type="image/webp" />
+              <source srcset="img/logo.img, img/logo@2x.img 2x" />
+              <img class="logo__img" src="img/logo.png" alt="Логотип сайта" />
+            </picture>
+          </a>
+          <ul class="header__list">
+            <li class="header__item">
+              <a class="header__item-link" href="#">Каталог</a>
+            </li>
+            <li class="header__item">
+              <a class="header__item-link" href="#">Производители</a>
+            </li>
+            <li class="header__item">
+              <a class="header__item-link" href="#">Для кого мы работаем</a>
+            </li>
+            <li class="header__item">
+              <a class="header__item-link" href="#">Сертификаты</a>
+            </li>
+            <li class="header__item">
+              <a class="header__item-link" href="#">О нас</a>
+            </li>
+            <li class="header__item">
+              <a class="header__item-link" href="#">FAQ</a>
+            </li>
+            <li class="header__item">
+              <a class="header__item-link" href="#">Контакты</a>
+            </li>
+          </ul>
+          <a class="header__phone-link" href="tel:+78123135845">
+            +7 (812)
+            <b>313-58-45</b>
+          </a>
+        </nav>
+        <div class="header__promo">
+          <h1 class="header__title">
+            Оптовые поставки
+            <span class="header__title header__title--action">
+              электронных компонентов
+            </span>
+            <span class="header__title header__title--size">
+              ИЗ КИТАЯ день в день
+            </span>
+          </h1>
+          <p class="header__description">
+            Комплексные поставки электронных компонентов и оборудования.
+            Подберем аналоги популярных брендов из Европы в условиях санкций.
+          </p>
+          <ul class="header__list-advantages">
+            <li class="header__item-advantages">
+              Отсрочка платежей для постоянных клиентов
+            </li>
+            <li class="header__item-advantages">
+              Бесплатная доставка по Москве и СПБ в течение 2х часов
+            </li>
+            <li class="header__item-advantages">
+              Квалифицированный персональный менеджер
+            </li>
+          </ul>
+          <form class="header__form form" action="" method="post">
+            <h2 class="form__title">ЗАКАЖИТЕ ОБРАТНЫЙ&nbsp;ЗВОНОК</h2>
+            <div class="form__wrapper">
+              <label class="form__label" for="name">Ваше имя*</label>
+              <input
+                class="form__input"
+                id="name"
+                type="text"
+                name="name"
+                placeholder="Петров Петр"
+                required />
+              <label class="form__label" for="phone">Ваш номер*</label>
+              <input
+                class="form__input"
+                id="phone"
+                type="tel"
+                name="phone"
+                required />
+              <button class="form__button button" type="submit">
+                Заказать звонок
+              </button>
+              <span class="form__copyright">
+                Мы гарантируем конфиденциальность данных
+              </span>
+            </div>
+          </form>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <section class="main__why why">
+        <div class="why__wrapper container">
+          <h2 class="why__title title title--black">Почему с нами выгодно</h2>
+          <p class="why__description">
+            С 1996 года мы занимаемся оптовыми поставками электронных
+            компонентов от ведущих производителей из Европы и Азии для
+            Российских потребителей.
+          </p>
+          <ul class="why__list">
+            <li class="why__item">
+              <svg
+                class="why__img"
+                width="157"
+                height="163"
+                fill="url(#paint0_linear)"
+                stroke="url(#paint0_linear)">
+                <linearGradient
+                  id="paint0_linear"
+                  gradientUnits="userSpaceOnUse"
+                  gradientTransform="rotate(90)">
+                  <stop stop-color="#040A57" />
+                  <stop offset="1" stop-color="#3A23E6" />
+                </linearGradient>
+                <use href="img/icon/sprite.svg#1"></use>
+              </svg>
+              <h3 class="why__item-title">Качественная продукция</h3>
+              <p class="why__item-descr">
+                Все наши товары сертифицированы и имеют сопроводительную
+                документацию.
+              </p>
+            </li>
+            <li class="why__item">
+              <svg
+                class="why__img"
+                width="157"
+                height="163"
+                fill="url(#paint0_linear)">
+                <use href="img/icon/sprite.svg#2"></use>
+              </svg>
+              <h3 class="why__item-title">Индивидуальный подход</h3>
+              <p class="why__item-descr">
+                Возможность изготовления компонентов специально для вас на
+                заводах-изготовителя.
+              </p>
+            </li>
+            <li class="why__item">
+              <svg
+                class="why__img"
+                width="157"
+                height="163"
+                fill="url(#paint0_linear)">
+                <use href="img/icon/sprite.svg#3"></use>
+              </svg>
+              <h3 class="why__item-title">Бесплатная доставка</h3>
+              <p class="why__item-descr">
+                При наличии товара на складе и заказе от 10 000 рублей, доставим
+                бесплатно по Москве и СПБ в течение 2х часов.
+              </p>
+            </li>
+            <li class="why__item">
+              <svg
+                class="why__img"
+                width="157"
+                height="163"
+                fill="url(#paint0_linear)">
+                <use href="img/icon/sprite.svg#4"></use>
+              </svg>
+              <h3 class="why__item-title">Подбираем аналоги</h3>
+              <p class="why__item-descr">
+                Поможем подобрать аналоги популярных европейских брендов в
+                условиях санкций.
+              </p>
+            </li>
+            <li class="why__item">
+              <svg
+                class="why__img"
+                width="157"
+                height="163"
+                fill="url(#paint0_linear)">
+                <use href="img/icon/sprite.svg#5"></use>
+              </svg>
+              <h3 class="why__item-title">Резервный запас компонентов</h3>
+              <p class="why__item-descr">
+                Хранение товара на наших складах для постоянных клиентов.
+              </p>
+            </li>
+            <li class="why__item">
+              <svg
+                class="why__img"
+                width="157"
+                height="163"
+                fill="url(#paint0_linear)">
+                <use href="img/icon/sprite.svg#6"></use>
+              </svg>
+              <h3 class="why__item-title">Гибкая система оплаты</h3>
+              <p class="why__item-descr">
+                Отсрочка платежей для постоянных клиентов.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="main__manufacturers manufacturers">
+        <div class="manufacturers__wrapper container">
+          <h2 class="manufacturers__title title title--white">
+            Наши производители
+          </h2>
+          <div class="manufacturers__button-wrapper">
+            <button
+              id="manufacturers__button--prev"
+              class="manufacturers__button swiper-button-prev"></button>
+            <button
+              id="manufacturers__button--next"
+              class="manufacturers__button swiper-button-next"></button>
+          </div>
+          <div class="manufacturers__slider swiper">
+            <ul class="manufacturers__slider-list swiper-wrapper">
+              <li class="manufacturers__slider-item swiper-slide">
+                <img
+                  src="img/manufacturers/eaier.png"
+                  width="150"
+                  height="94"
+                  alt="" />
+              </li>
+              <li class="manufacturers__slider-item swiper-slide">
+                <img
+                  src="img/manufacturers/foryard.png"
+                  width="186"
+                  height="47"
+                  alt="" />
+              </li>
+              <li class="manufacturers__slider-item swiper-slide">
+                <img
+                  src="img/manufacturers/fujicon.png"
+                  width="106"
+                  height="106"
+                  alt="" />
+              </li>
+              <li class="manufacturers__slider-item swiper-slide">
+                <img
+                  src="img/manufacturers/js.png"
+                  width="171"
+                  height="116"
+                  alt="" />
+              </li>
+              <li class="manufacturers__slider-item swiper-slide">
+                <img
+                  src="img/manufacturers/marquis.png"
+                  width="183"
+                  height="40"
+                  alt="" />
+              </li>
+            </ul>
+          </div>
+          <p class="manufacturers__description">
+            Lorem ipsum dolor sit amet consectetur. Non eget blandit in euismod
+            felis id quisque nunc. Non orci lacus elit mauris velit gravida
+            imperdiet id. Ipsum pulvinar ac ut sociis. Sed magna gravida
+            consequat et euismod aenean quis mauris. Ut etiam egestas ultrices
+            faucibus ultrices nisl enim consequat faucibus. Nibh id leo
+            ullamcorper eleifend. Id at commodo interdum et leo.
+          </p>
+        </div>
+      </section>
+
+      <section class="main__scheme scheme">
+        <div class="scheme__wrapper container">
+          <h2 class="scheme__title title title--black">Схема работы</h2>
+          <p class="scheme__description">
+            Lorem ipsum dolor sit amet consectetur. Augue velit in enim sagittis
+            imperdiet sit mauris. Vitae sit in fusce massa amet.
+          </p>
+          <ul class="scheme__cards">
+            <li class="scheme__card">
+              <h3 class="scheme__card-title">ВЫ ОСТАВЛЯЕТЕ ЗАЯВКУ</h3>
+              <p class="scheme__card-description">
+                Отправить запрос вы можете любым удобным для вас способом:
+                например, через форму на сайте. Также вы можете связаться с нами
+                напрямую.
+              </p>
+            </li>
+            <li class="scheme__card">
+              <h3 class="scheme__card-title">МЫ ПРОВЕРЯЕМ НАЛИЧИЕ ПОЗИЦИЙ</h3>
+              <p class="scheme__card-description">
+                Проверяем наличие на складе, а также актуальность производства
+                (возможна замена, если необходимо.) Если требуется замена -
+                подбираем аналоги и привозим на заказ.
+              </p>
+            </li>
+            <li class="scheme__card">
+              <h3 class="scheme__card-title">
+                ФОРМИРУЕМ КОММЕРЧЕСКОЕ ПРЕДЛОЖЕНИЕ
+              </h3>
+              <p class="scheme__card-description">
+                На данном этапе мы с вами согласуем ценовое предложение,
+                обговариваем сроки поставки и условия оплаты.
+              </p>
+            </li>
+            <li class="scheme__card">
+              <h3 class="scheme__card-title">ПРОВОДИМ ОПЛАТУ</h3>
+              <p class="scheme__card-description">
+                Далее, после получения авансового платежа, мы размещаем заказ.
+              </p>
+            </li>
+            <li class="scheme__card">
+              <h3 class="scheme__card-title">МЫ ВЫПОЛНЯЕМ ЗАКАЗ</h3>
+              <p class="scheme__card-description">
+                Товар поступает на склад в Москву или Санкт-Петербург, где мы
+                сверяем правильность поставки и начинаем сборку.
+              </p>
+            </li>
+            <li class="scheme__card">
+              <h3 class="scheme__card-title">ВЫ ПОЛУЧАЕТЕ ТОВАР</h3>
+              <p class="scheme__card-description">
+                Поставляем вам товар в надлежащей упаковке в сопровождении
+                оригиналов всех необходимых документов либо вы забираете его
+                самовывозом.
+              </p>
+            </li>
+          </ul>
+          <a class="scheme__button button" href="#">ОСТАВИТЬ ЗАЯВКУ</a>
+        </div>
+      </section>
+      <section class="main__answers answers">
+        <div class="answers__wrapper container">
+          <h2 class="answers__title title title--white">
+            Ответы на самые популярные вопросы в сфере
+          </h2>
+          <div class="answers__accordion">
+            <button class="answers__accordion-title">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Deserunt, iure.
+            </button>
+            <div class="answers__accordion-description">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed
+              velit totam autem hic maiores exercitationem tempora corporis,
+              dignissimos atque culpa qui assumenda at architecto earum? Neque
+              eius rerum perferendis libero! Lorem ipsum dolor, sit amet
+              consectetur adipisicing elit. Sed velit totam autem hic maiores
+              exercitationem tempora corporis, dignissimos atque culpa qui
+              assumenda at architecto earum? Neque eius rerum perferendis
+              libero!
+            </div>
+            <button class="answers__accordion-title">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Deserunt, iure.
+            </button>
+            <div class="answers__accordion-description">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed
+              velit totam autem hic maiores exercitationem tempora corporis,
+              dignissimos atque culpa qui assumenda at architecto earum? Neque
+              eius rerum perferendis libero! Lorem ipsum dolor, sit amet
+              consectetur adipisicing elit. Sed velit totam autem hic maiores
+              exercitationem tempora corporis, dignissimos atque culpa qui
+              assumenda at architecto earum? Neque eius rerum perferendis
+              libero!
+            </div>
+            <button class="answers__accordion-title">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Deserunt, iure.
+            </button>
+            <div class="answers__accordion-description">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed
+              velit totam autem hic maiores exercitationem tempora corporis,
+              dignissimos atque culpa qui assumenda at architecto earum? Neque
+              eius rerum perferendis libero! Lorem ipsum dolor, sit amet
+              consectetur adipisicing elit. Sed velit totam autem hic maiores
+              exercitationem tempora corporis, dignissimos atque culpa qui
+              assumenda at architecto earum? Neque eius rerum perferendis
+              libero!
+            </div>
+            <button class="answers__accordion-title">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Deserunt, iure.
+            </button>
+            <div class="answers__accordion-description">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed
+              velit totam autem hic maiores exercitationem tempora corporis,
+              dignissimos atque culpa qui assumenda at architecto earum? Neque
+              eius rerum perferendis libero! Lorem ipsum dolor, sit amet
+              consectetur adipisicing elit. Sed velit totam autem hic maiores
+              exercitationem tempora corporis, dignissimos atque culpa qui
+              assumenda at architecto earum? Neque eius rerum perferendis
+              libero!
+            </div>
+            <button class="answers__accordion-title">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Deserunt, iure.
+            </button>
+            <div class="answers__accordion-description">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed
+              velit totam autem hic maiores exercitationem tempora corporis,
+              dignissimos atque culpa qui assumenda at architecto earum? Neque
+              eius rerum perferendis libero! Lorem ipsum dolor, sit amet
+              consectetur adipisicing elit. Sed velit totam autem hic maiores
+              exercitationem tempora corporis, dignissimos atque culpa qui
+              assumenda at architecto earum? Neque eius rerum perferendis
+              libero!
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__wrapper container">
+        <nav class="footer__nav">
+          <a class="footer__logo logo" href="#">
+            <picture>
+              <source
+                srcset="img/logo.webp 1x, img/logo@2x.webp 2x"
+                type="image/webp" />
+              <source srcset="img/logo.img, img/logo@2x.img 2x" />
+              <img class="logo__img" src="img/logo.png" alt="Логотип сайта" />
+            </picture>
+          </a>
+          <ul class="footer__list">
+            <li class="footer__item">
+              <a class="footer__item-link" href="#">Каталог</a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__item-link" href="#">Производители</a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__item-link" href="#">Для кого мы работаем</a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__item-link" href="#">Сертификаты</a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__item-link" href="#">О нас</a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__item-link" href="#">Контакты</a>
+            </li>
+          </ul>
+          <a class="footer__button button" href="#">ОСТАВИТЬ ЗАЯВКУ</a>
+        </nav>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/script.min.js"></script>
+  </body>
+</html>

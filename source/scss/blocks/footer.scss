@@ -1,0 +1,34 @@
+.footer {
+  background: #333333;
+  &__wrapper {
+    padding-top: 7.2rem;
+    padding-bottom: 7.2rem;
+  }
+  &__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__list {
+    display: flex;
+    list-style: none;
+    column-gap: 3.6rem;
+  }
+  &__item-link {
+    font-family: $second-family;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+    color: #fff;
+    text-decoration: none;
+    @include activeElem;
+  }
+  &__button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 26.1rem;
+    background-color: #969af7;
+    text-decoration: none;
+  }
+}

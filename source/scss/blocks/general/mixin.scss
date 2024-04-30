@@ -1,0 +1,14 @@
+@mixin activeElem {
+  transition: all 0.2s linear;
+  &:focus {
+    outline: $main-focus;
+  }
+
+  &:hover {
+    opacity: 0.6;
+  }
+
+  &:active {
+    opacity: 0.3;
+  }
+}

@@ -1,0 +1,26 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-size: 2rem;
+  min-width: 320px;
+  margin: 0;
+  font-family: $font-family;
+  font-style: normal;
+  font-weight: 400;
+  background-color: #f2f2f4;
+  color: #000000;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}

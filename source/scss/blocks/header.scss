@@ -1,0 +1,151 @@
+.header {
+  background: #f2f2f4 url(../img/header/bg.png) 100% / cover no-repeat;
+  min-height: 88rem;
+
+  &__wrapper {
+    padding-top: 5.5rem;
+  }
+
+  &__nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  picture,
+  picture img {
+    width: 155px;
+    height: 28px;
+  }
+
+  &__list {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    column-gap: 1rem;
+    list-style: none;
+  }
+
+  &__item-link {
+    display: inline-block;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-family: $font4;
+    font-weight: 200;
+    line-height: 2.2rem;
+    text-decoration: none;
+    color: #fff;
+    @include activeElem;
+  }
+
+  &__phone-link {
+    position: relative;
+    font-family: $third-family;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    @include activeElem;
+
+    &::after {
+      content: '';
+      position: absolute;
+      top: 50%;
+      left: -4rem;
+      transform: translateY(-50%);
+      width: 33px;
+      height: 33px;
+      background: url('../img/icon/phone-icon.svg') center no-repeat;
+    }
+  }
+
+  &__promo {
+    margin-top: 11rem;
+    display: grid;
+    grid-template-columns: 1fr 38rem;
+    grid-template-rows: repeat(3, auto);
+    grid-template-areas:
+      'title form'
+      'description form'
+      'advantages form';
+    column-gap: 5rem;
+  }
+
+  &__title {
+    grid-area: title;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    font-family: $third-family;
+    font-weight: 700;
+    font-size: 6.9rem;
+    line-height: 6.9rem;
+    text-transform: uppercase;
+    color: #fff;
+
+    &--action {
+      font-size: 4.2rem;
+      letter-spacing: 0.44rem;
+      color: #969af7;
+    }
+
+    &--size {
+      font-size: 6.1rem;
+      line-height: 7.5rem;
+    }
+  }
+
+  &__description {
+    grid-area: description;
+    margin-top: 0.4rem;
+    font-family: $second-family;
+    font-weight: 400;
+    font-size: 2.3rem;
+    line-height: 3rem;
+    color: #969af7;
+  }
+
+  &__list-advantages {
+    display: block;
+    grid-area: advantages;
+    padding: 2rem 2rem 2rem 5.8rem;
+    margin: 0;
+    list-style: none;
+    background: linear-gradient(
+      90deg,
+      rgba(150, 154, 247, 0.7) 0%,
+      rgba(150, 154, 247, 0) 100%
+    );
+    border-radius: 1rem;
+  }
+
+  &__item-advantages {
+    position: relative;
+    font-family: $second-family;
+    font-weight: 400;
+    font-size: 2.2rem;
+    line-height: 2.9rem;
+    color: #fff;
+  }
+
+  &__item-advantages::after {
+    content: '';
+    position: absolute;
+    width: 14px;
+    height: 11px;
+    top: 50%;
+    left: -2.5rem;
+    transform: translateY(-50%);
+    background: url(../img/header/check.svg) center no-repeat;
+  }
+
+  &__item-advantages:not(:last-of-type) {
+    margin-bottom: 0.4rem;
+  }
+
+  &__form {
+    grid-area: form;
+  }
+}
